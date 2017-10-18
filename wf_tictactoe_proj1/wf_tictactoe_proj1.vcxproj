@@ -139,6 +139,7 @@
     <ClInclude Include="mainForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="mainForm.resx">
@@ -146,14 +147,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="..\..\..\..\Desktop\Inconsolata-Bold.ttf">
-      <DeploymentContent>true</DeploymentContent>
-    </Font>
-    <Font Include="..\..\..\..\Desktop\Inconsolata-Regular.ttf">
-      <DeploymentContent>false</DeploymentContent>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
-    </Font>
+    <ResourceCompile Include="wf_tictactoe_proj1.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

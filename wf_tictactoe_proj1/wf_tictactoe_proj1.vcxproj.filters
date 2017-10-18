@@ -23,6 +23,9 @@
     <ClInclude Include="mainForm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="mainForm.resx">
@@ -30,7 +33,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="..\..\..\..\Desktop\Inconsolata-Regular.ttf" />
-    <Font Include="..\..\..\..\Desktop\Inconsolata-Bold.ttf" />
+    <ResourceCompile Include="wf_tictactoe_proj1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

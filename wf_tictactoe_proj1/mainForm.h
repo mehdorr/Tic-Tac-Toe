@@ -112,6 +112,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->a1->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->a1->Location = System::Drawing::Point(12, 12);
+			this->a1->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->a1->Name = L"a1";
 			this->a1->Size = System::Drawing::Size(100, 100);
 			this->a1->TabIndex = 0;
@@ -124,6 +125,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->a2->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->a2->Location = System::Drawing::Point(118, 12);
+			this->a2->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->a2->Name = L"a2";
 			this->a2->Size = System::Drawing::Size(100, 100);
 			this->a2->TabIndex = 1;
@@ -136,6 +138,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->a3->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->a3->Location = System::Drawing::Point(224, 12);
+			this->a3->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->a3->Name = L"a3";
 			this->a3->Size = System::Drawing::Size(100, 100);
 			this->a3->TabIndex = 2;
@@ -148,6 +151,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->b1->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->b1->Location = System::Drawing::Point(12, 118);
+			this->b1->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->b1->Name = L"b1";
 			this->b1->Size = System::Drawing::Size(100, 100);
 			this->b1->TabIndex = 3;
@@ -160,6 +164,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->b2->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->b2->Location = System::Drawing::Point(118, 118);
+			this->b2->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->b2->Name = L"b2";
 			this->b2->Size = System::Drawing::Size(100, 100);
 			this->b2->TabIndex = 4;
@@ -172,6 +177,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->b3->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->b3->Location = System::Drawing::Point(224, 118);
+			this->b3->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->b3->Name = L"b3";
 			this->b3->Size = System::Drawing::Size(100, 100);
 			this->b3->TabIndex = 5;
@@ -184,6 +190,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->c1->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->c1->Location = System::Drawing::Point(12, 224);
+			this->c1->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->c1->Name = L"c1";
 			this->c1->Size = System::Drawing::Size(100, 100);
 			this->c1->TabIndex = 6;
@@ -196,6 +203,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->c2->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->c2->Location = System::Drawing::Point(118, 224);
+			this->c2->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->c2->Name = L"c2";
 			this->c2->Size = System::Drawing::Size(100, 100);
 			this->c2->TabIndex = 7;
@@ -208,6 +216,7 @@ namespace wftictactoeproj1 {
 			// 
 			this->c3->Font = (gcnew System::Drawing::Font(L"Inconsolata", 45, System::Drawing::FontStyle::Bold));
 			this->c3->Location = System::Drawing::Point(224, 224);
+			this->c3->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->c3->Name = L"c3";
 			this->c3->Size = System::Drawing::Size(100, 100);
 			this->c3->TabIndex = 8;
@@ -220,9 +229,10 @@ namespace wftictactoeproj1 {
 			// 
 			this->btnExit->Font = (gcnew System::Drawing::Font(L"Inconsolata", 9.749999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->btnExit->Location = System::Drawing::Point(249, 346);
+			this->btnExit->Location = System::Drawing::Point(248, 346);
+			this->btnExit->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->btnExit->Name = L"btnExit";
-			this->btnExit->Size = System::Drawing::Size(75, 23);
+			this->btnExit->Size = System::Drawing::Size(74, 23);
 			this->btnExit->TabIndex = 9;
 			this->btnExit->Text = L"Exit";
 			this->btnExit->UseVisualStyleBackColor = true;
@@ -233,8 +243,9 @@ namespace wftictactoeproj1 {
 			this->btnNewGame->Font = (gcnew System::Drawing::Font(L"Inconsolata", 9.749999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->btnNewGame->Location = System::Drawing::Point(12, 346);
+			this->btnNewGame->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->btnNewGame->Name = L"btnNewGame";
-			this->btnNewGame->Size = System::Drawing::Size(75, 23);
+			this->btnNewGame->Size = System::Drawing::Size(74, 23);
 			this->btnNewGame->TabIndex = 10;
 			this->btnNewGame->Text = L"New Game";
 			this->btnNewGame->UseVisualStyleBackColor = true;
@@ -246,6 +257,7 @@ namespace wftictactoeproj1 {
 			this->labTurnCountTxt->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->labTurnCountTxt->Location = System::Drawing::Point(116, 343);
+			this->labTurnCountTxt->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labTurnCountTxt->Name = L"labTurnCountTxt";
 			this->labTurnCountTxt->Size = System::Drawing::Size(71, 12);
 			this->labTurnCountTxt->TabIndex = 11;
@@ -257,6 +269,7 @@ namespace wftictactoeproj1 {
 			this->labTurnCount->Font = (gcnew System::Drawing::Font(L"Inconsolata", 9.749999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->labTurnCount->Location = System::Drawing::Point(187, 341);
+			this->labTurnCount->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labTurnCount->Name = L"labTurnCount";
 			this->labTurnCount->Size = System::Drawing::Size(14, 15);
 			this->labTurnCount->TabIndex = 12;
@@ -267,7 +280,8 @@ namespace wftictactoeproj1 {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->label1->Location = System::Drawing::Point(116, 357);
+			this->label1->Location = System::Drawing::Point(116, 358);
+			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(77, 12);
 			this->label1->TabIndex = 13;
@@ -278,7 +292,8 @@ namespace wftictactoeproj1 {
 			this->labLastWinner->AutoSize = true;
 			this->labLastWinner->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labLastWinner->Location = System::Drawing::Point(189, 357);
+			this->labLastWinner->Location = System::Drawing::Point(188, 358);
+			this->labLastWinner->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labLastWinner->Name = L"labLastWinner";
 			this->labLastWinner->Size = System::Drawing::Size(29, 12);
 			this->labLastWinner->TabIndex = 14;
@@ -290,6 +305,7 @@ namespace wftictactoeproj1 {
 			this->label2->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label2->Location = System::Drawing::Point(12, 327);
+			this->label2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(89, 12);
 			this->label2->TabIndex = 15;
@@ -301,6 +317,7 @@ namespace wftictactoeproj1 {
 			this->label3->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->label3->Location = System::Drawing::Point(118, 327);
+			this->label3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(83, 12);
 			this->label3->TabIndex = 16;
@@ -311,7 +328,8 @@ namespace wftictactoeproj1 {
 			this->label4->AutoSize = true;
 			this->label4->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->label4->Location = System::Drawing::Point(225, 327);
+			this->label4->Location = System::Drawing::Point(224, 327);
+			this->label4->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(89, 12);
 			this->label4->TabIndex = 17;
@@ -323,6 +341,7 @@ namespace wftictactoeproj1 {
 			this->labXWins->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->labXWins->Location = System::Drawing::Point(101, 327);
+			this->labXWins->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labXWins->Name = L"labXWins";
 			this->labXWins->Size = System::Drawing::Size(11, 12);
 			this->labXWins->TabIndex = 18;
@@ -333,7 +352,8 @@ namespace wftictactoeproj1 {
 			this->labDraws->AutoSize = true;
 			this->labDraws->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
-			this->labDraws->Location = System::Drawing::Point(207, 327);
+			this->labDraws->Location = System::Drawing::Point(206, 327);
+			this->labDraws->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labDraws->Name = L"labDraws";
 			this->labDraws->Size = System::Drawing::Size(11, 12);
 			this->labDraws->TabIndex = 19;
@@ -345,6 +365,7 @@ namespace wftictactoeproj1 {
 			this->labOWins->Font = (gcnew System::Drawing::Font(L"Inconsolata", 8.249999F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(238)));
 			this->labOWins->Location = System::Drawing::Point(311, 327);
+			this->labOWins->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labOWins->Name = L"labOWins";
 			this->labOWins->Size = System::Drawing::Size(11, 12);
 			this->labOWins->TabIndex = 20;
@@ -376,7 +397,10 @@ namespace wftictactoeproj1 {
 			this->Controls->Add(this->a3);
 			this->Controls->Add(this->a2);
 			this->Controls->Add(this->a1);
+			this->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
 			this->Icon = (cli::safe_cast<System::Drawing::Icon^>(resources->GetObject(L"$this.Icon")));
+			this->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->MaximizeBox = false;
 			this->Name = L"mainForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
