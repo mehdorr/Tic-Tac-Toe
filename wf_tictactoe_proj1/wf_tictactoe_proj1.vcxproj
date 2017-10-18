@@ -146,7 +146,14 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Font Include="..\..\..\..\Desktop\Inconsolata-Regular.ttf" />
+    <Font Include="..\..\..\..\Desktop\Inconsolata-Bold.ttf">
+      <DeploymentContent>true</DeploymentContent>
+    </Font>
+    <Font Include="..\..\..\..\Desktop\Inconsolata-Regular.ttf">
+      <DeploymentContent>false</DeploymentContent>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</DeploymentContent>
+    </Font>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

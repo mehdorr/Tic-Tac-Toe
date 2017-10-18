@@ -31,5 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="..\..\..\..\Desktop\Inconsolata-Regular.ttf" />
+    <Font Include="..\..\..\..\Desktop\Inconsolata-Bold.ttf" />
   </ItemGroup>
 </Project>
